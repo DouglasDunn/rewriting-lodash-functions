@@ -1,0 +1,40 @@
+{
+  "name": "rewriting-lodash-functions",
+  "version": "1.0.0",
+  "description": "An npm module that contains 10 or more beautiful functions. Inspired by lodash. ",
+  "main": "index.js",
+  "scripts": {
+    "start": "DEBUG=rewriting-lodash-functions:* nodemon ./bin/www",
+    "test": "babel-watch spec/run.js",
+    "buildwatch": "babel src -w --out-dir dist --copy-files"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DouglasDunn/rewriting-lodash-functions.git"
+  },
+  "keywords": [
+    "functions",
+    "javascript"
+  ],
+  "author": "Diana Vashti, RC Brown, Douglas Dunn, Abraham Ferguson, and a little from Phil Lorenzo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DouglasDunn/rewriting-lodash-functions/issues"
+  },
+  "homepage": "https://github.com/DouglasDunn/rewriting-lodash-functions#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "debug": "^2.2.0",
+    "jasmine": "^2.5.2",
+    "morgan": "^1.7.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-core": "^6.14.0",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "babel-watch": "^2.0.3-rc0",
+    "jasmine": "^2.5.2",
+    "nodemon": "^1.10.2"
+  }
+}
