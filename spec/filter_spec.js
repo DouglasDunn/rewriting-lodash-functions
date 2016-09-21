@@ -13,3 +13,4 @@ describe( 'filter', () => {
     expect( filter( [1,3], a => a % 2 == 0 )).toEqual( [] )
   })
 })
+
