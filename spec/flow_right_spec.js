@@ -3,7 +3,7 @@ import { flowRight } from '../dist/flow_right'
 const add = (a, b) => a + b
 const square = a => a * a
 
-fdescribe('flowRight', () =>{
+describe('flowRight', () =>{
   it( 'returns a function', () => {
     expect( typeof( flowRight([ square, add ]) )).toEqual( 'function' )
   })

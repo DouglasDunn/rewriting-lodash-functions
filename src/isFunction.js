@@ -1,3 +1,4 @@
-const isFunction = (fn) => {
-	typeOf (fn) === 'function'
-}
+const isFunction = ( value ) =>
+	typeof( value ) === 'function'
+
+export { isFunction }
