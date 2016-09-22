@@ -2,7 +2,7 @@ import { isFunction } from '../dist/isFunction'
 
 const add = (a, b) => a + b
 
-fdescribe( 'isFunction', () => {
+describe( 'isFunction', () => {
   it( 'returns true if value is classified as a function object', () => {
 		expect( isFunction(add) ).toEqual( true )
 	})
