@@ -12,12 +12,12 @@ This is a library of commonly used JavaScript/JQuery/Lodash/Underscore methods w
 
 ### Required
 
-- [ ] Includes a list of commonly used methods to rewrite in ES2015.
-- [ ] Includes a README that describes each method and provides an example of use.
-- [ ] Package is published with NPM.
-- [ ] Includes tests for all methods described.
-- [ ] This library includes 10 amazing easy to use functions.
-- [ ] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
+- [x] Includes a list of commonly used methods to rewrite in ES2015.
+- [x] Includes a README that describes each method and provides an example of use.
+- [x] Package is published with NPM.
+- [x] Includes tests for all methods described.
+- [x] This library includes 10 amazing easy to use functions.
+- [x] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
 
 ## The Silly Tortoise Function Hub
 
