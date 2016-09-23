@@ -107,6 +107,22 @@ last(array)
 last([1, 2, 3]);
 // is 3
 ```
+## nth
+# Gets the element at index n of array. If n is negative, the nth element from the end is returned.
+
+```js
+nth(array, [n=0])
+```
+```js
+var array = ['a', 'b', 'c', 'd'];
+
+nth(array, 1);
+// is 'b'
+
+nth(array, -2);
+// is 'c';
+```
+
 ## Reverse
 # Reverses array so that the first element becomes the last, the second element becomes the second to last, and so on.
 
@@ -122,6 +138,13 @@ reverse(array);
 console.log(array);
 // is [3, 2, 1]
 ```
+## Slice
+# Creates a slice of array from start up to, but not including, end.
+
+```js
+slice(array, [start=0], [end=array.length])
+```
+
 ## Subtract
 # Subtract two numbers.
 
@@ -140,4 +163,17 @@ tail(array)
 ```js
 tail([1, 2, 3]);
 // is [2, 3]
+```
+
+## Times
+# Invokes the iteratee n times, returning an array of the results of each invocation. The iteratee is invoked with one argument; (index).
+```js
+times(n, [iteratee=_.identity])
+```
+```js
+times(3, String);
+// is ['0', '1', '2']
+
+ times(4, _.constant(0));
+// is [0, 0, 0, 0]
 ```
