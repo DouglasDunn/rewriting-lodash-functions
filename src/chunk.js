@@ -1,5 +1,5 @@
 const chunk = (collection, chunkSize=1) => {
-    if ( ! (collection instanceof Array) ){
+    if ( !Array.isArray(collection) && typeof collection !== 'string' ){
       return []
     }
 
