@@ -2,6 +2,8 @@
 
 This is a library of commonly used JavaScript/JQuery/Lodash/Underscore methods with documentation and commenting using ES2015. This library is avaiable as an npm moodule for your enjoyment.
 
+https://www.npmjs.com/package/silly-tortoise-lodash-functions
+
 ## Why do you want our library?
 
 - you will learn JavaScript easily
